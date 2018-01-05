@@ -1,6 +1,8 @@
-# glossary-of-ice-and-fire-client
+# A Glossary of Ice and Fire
 
-> A Vue.js project
+> A Vue.js application that displays data from Joakim Skoog's [API of Ice and Fire](https://anapioficeandfire.com)
+
+Currently shows a list of Books, Characters, and Houses of Westeros, pulled from Skoog's respective APIs.
 
 ## Build Setup
 
