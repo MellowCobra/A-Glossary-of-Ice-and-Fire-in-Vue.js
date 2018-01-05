@@ -1,0 +1,62 @@
+@import './colors.styl'
+
+.primary
+    background-color $primary
+
+.secondary
+    background-color $secondary
+
+.primaryFg
+    color $primary
+
+.secondaryFg
+    color $secondary
+
+.primary--shade
+    background-color $primaryShade
+
+.primaryFg--shade
+    color $primaryShade
+
+.white
+    background-color $white
+
+.whiteFg
+    color $white
+
+.grey
+    background-color $grey
+
+.greyFg
+    color $grey
+
+*
+    box-sizing border-box
+    margin 0
+
+html, body
+    height 100%
+    font-family 'Lato', sans-serif
+    margin 0
+    padding 0
+    background-color $white
+    color $black
+    position relative
+
+.appWrap
+    position absolute
+    bottom 0
+    left 0
+    right 0
+    top 0
+    width 100%
+
+.content
+    position absolute
+    top 70px
+    bottom 0
+    right 0
+    left 0
+
+.screen
+    margin 16px
